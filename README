@@ -1,0 +1,5 @@
+Create an image using the dockerfile by running the command -
+docker build -t <image-name> .      
+
+Create a container from the image created in previous steps using the command-
+docker run -it <image-name> ./buildname
